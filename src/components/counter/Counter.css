@@ -1,0 +1,8 @@
+.counter-buttons {
+  margin-inline: 8px;
+}
+
+.counter-buttons span {
+  margin-inline: 4px;
+  vertical-align: middle;
+}
