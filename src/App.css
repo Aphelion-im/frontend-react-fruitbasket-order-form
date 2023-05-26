@@ -1,0 +1,70 @@
+.section {
+  border-radius: 16px;
+  background-color: hsla(0, 0%, 96%, 80%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1.2rem 1.5rem 2rem 1.5rem;
+  border: 1px solid #ccc;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
+  margin-block: 1rem;
+}
+
+.section form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.section form input,
+.section form textarea,
+.section form select {
+  width: 100%;
+  margin: 4px 0 8px 0;
+  outline: none;
+  border: 1px solid var(--dark-clr-1);
+  transition: background-color 250ms ease-in;
+  padding: 2px;
+  border-radius: 8px;
+  padding: 2px 2px 2px 4px;
+}
+
+.section form label {
+  text-align: left;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.section input:focus,
+.section textarea:focus {
+  background-color: hsla(168, 53%, 52%, 0.2);
+  border: 1px solid var(--dark-clr-1);
+}
+
+.section form input[type='checkbox'] {
+  width: auto;
+  margin-right: 8px;
+  transform: translateY(1px);
+}
+
+.section form input[type='radio'] {
+  width: auto;
+  margin-right: 4px;
+  transform: translateY(1px);
+}
+
+h1 {
+  font-family: 'Berkshire Swash', cursive;
+  margin-bottom: 2px;
+}
+
+h3 {
+  font-family: inherit;
+  font-size: 1.1rem;
+  margin-bottom: 4px;
+}
