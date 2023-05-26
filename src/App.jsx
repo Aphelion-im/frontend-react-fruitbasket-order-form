@@ -8,6 +8,8 @@
 // React.forwardRef (useRef props op componenten) - https://www.youtube.com/watch?v=0YTYqg0ETx8
 // Nog niet gelukt om variaties op bepaalde componenten te maken die ietwat afwijken
 // React
+// Comments Zwen:
+// https://github.com/Aphelion-im/frontend-react-fruitbasket-order-form/pull/1
 import { useEffect, useRef, useState } from 'react';
 // Components
 import Fruit from './components/product/Fruit';
